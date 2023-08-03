@@ -1,0 +1,54 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(1, 41, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(254, 233, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: 500px;
+    background-color: rgb(89, 136, 136);
+    padding: 70px 40px;
+    box-shadow: 0 20px 25px rgb(1, 9, 20);
+    border-radius: 70px;
+    display: block;
+    justify-content: space-between;
+    
+}
+
+
+.temp{
+     width: 50%;
+    
+}
+
+input{
+    width: 200%;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px solid black;
+    outline: none;
+    margin-top: 5px;
+    padding: 0 10px;
+}
